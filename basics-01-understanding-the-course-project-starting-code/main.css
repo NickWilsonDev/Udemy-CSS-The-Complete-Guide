@@ -6,6 +6,7 @@
     padding: 10px;
 }
 
+
 .section-title {
     color: #2ddf5c;
     text-align: center;
@@ -14,6 +15,12 @@
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 .plan {
