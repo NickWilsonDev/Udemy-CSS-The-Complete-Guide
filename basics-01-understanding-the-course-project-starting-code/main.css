@@ -12,7 +12,9 @@
     /*background-clip: border-box; */
     width: 100%;
     height: 528px;
-    padding: 10px;
+    padding: 0.6rem;
+    margin-top: 2.5rem;
+    postion: relative;
 }
 
 
@@ -24,6 +26,10 @@
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    width: 100%;
 }
 
 .plan__list {
@@ -35,8 +41,8 @@
 .plan {
     background: #d5ffdc;
     text-align: center;
-    padding: 16px;
-    margin: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
     display: inline-block;
     width: 30%;
     vertical-align: middle;
@@ -51,7 +57,7 @@
 .plan__annotation {
     background: white;
     color: #19b84c;
-    padding: 8px;
+    padding: 0.5rem;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
@@ -80,7 +86,7 @@
 }
 
 .plan__feature {
-    margin: 8px 0;
+    margin: 0.5rem 0;
 }
 
 .button {
@@ -88,7 +94,7 @@
     color: white;
     font: inherit;
     border: 1.5px solid #0e4f1f;
-    padding: 8px;
+    padding: 0.5rem;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
@@ -106,8 +112,8 @@
 
 #key-features {
     background: #ff1b68;
-    margin-top: 80px;
-    padding: 60px;
+    margin-top: 5rem;
+    padding: 3.75rem;
 }
 
 .key-feature__list {
@@ -130,7 +136,7 @@
     border: 2px solid #424242;
     border-radius: 50%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .key-feature__description {
@@ -142,5 +148,5 @@
 
 #key-features .section-title {
     color: white;
-    margin: 32px;
+    margin: 2rem;
 }
