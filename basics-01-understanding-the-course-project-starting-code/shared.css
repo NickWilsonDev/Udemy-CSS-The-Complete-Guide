@@ -9,6 +9,8 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    /* to advoid scrollbars on windows machines */
+    overflow-x: hidden;
 }
 
 .backdrop {
