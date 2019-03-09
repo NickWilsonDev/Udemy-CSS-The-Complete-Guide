@@ -174,8 +174,7 @@ main {
         padding: 0;
         list-style: none;
         display: flex;
-}
-
+    }
 }
 
 .main-footer {
@@ -188,12 +187,13 @@ main {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-footer__link {
-    display: inline-block;
-    margin: 0 1rem;
+    margin: 0.5rem 0;
 }
 
 .main-footer__link a {
@@ -237,3 +237,15 @@ main {
 .mobile-nav__item a {
   font-size: 1.5rem;
 }
+
+@media (min-width: 40rem) {
+    .main-footer__link {
+        margin: 0 1rem;
+    }
+
+    .main-footer__links {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
